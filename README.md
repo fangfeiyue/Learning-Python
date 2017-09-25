@@ -82,12 +82,66 @@ int(0b111)//7
 hex(99)//0x63
 hex(0o23)//0x13
 ```
- 
+### 3.5布尔类型与复数
+1.bool类型
+- True\False，首字母必须大写
+```
+bool(-1);//True
+bool('1');//True
+bool('');//False
+bool(0);//False
+bool([]);//False
+bool({});//False
+bool(None);/ /False
+```
+2.complex复数
 
+- Python表示复数的方式，数字后面加j
+```
+36j
+```
 
+### 3.6字符串单引号、双引号
+### 3.7多行字符串
+- 使用三个引号（单、双引号都行）
+```
+'''
+hello world
+hello world
+hello world
+'''
+```
 
- 
+### 3.8转义字符
+### 3.9原始字符串
+```
+print(r'c:\norwind\west');//c:\norwind\west
+print(r'let's');//语法错误
+```
+#### 3.10字符串的运算
+- 中文注释要文件开头要加#coding=utf-8
+- 单行注释#
+- 多行注释'''内容'''
+- 字符串拼接
+```
+print("hello"+"world"); 
+print("hello"*3);# 输出三遍hellohellohello
+``` 
+- 获取单个字符串
+```
+print("hello world"[3]);#l 
+print("hello world"[-1]);#d
+```
+- 截取指定的字符串[x-y]不包含y
+```
+print("hello world"[0:4]);
+print("hello world"[0:-3]);#hello wo
+print("hello world"[0:-1]);#hello worl
 
+#输出world
+print("hello world"[6:11]);
+print("hello world"[6:]);
 
- 
-
+#截取最后的one
+print("hello world hello people hello everyone"[-3:]);
+```
