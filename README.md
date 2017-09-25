@@ -8,7 +8,7 @@ Simple is better than complex.
 
 Now is better than never.Although never is often better than right now.做也许好过不做，但不假思索就动手还不如不做。
 
-## 第一章Pyton入门导学
+## 第一章、Pyton入门导学
 
 ### 1.1Python的特性
 
@@ -30,7 +30,7 @@ Now is better than never.Although never is often better than right now.做也许
 1.相较于C、C++、Java，运行效率较慢，原因之一就是C、C++属于编译型语言， 在程序运行之前有个运行编译的过程，通常会把源代码编译成机器码这个机器码是很接近底层的，所以运行效率是很高的，Python、Javascript属于解释型语言，没有编译的过程，所以每次执行程序都会去解析源代码 
 
 2.为什么会有编译型语言和解释型语言呢？运行效率和开发效率很多时候很难兼得。   
-## Python的环境安装
+## 第二章、Python的环境安装
 1.去官网下载需要版本的Python:[官网](https://www.python.org/)
 
 2.直接下一步下一步安装就可以
@@ -39,7 +39,7 @@ Now is better than never.Although never is often better than right now.做也许
 
 4.在这个界面输入print('hello world')然后回车，就看到IDLE输出了hello world
 
-## 3.理解什么是写代码与Python的基本类型
+## 第三章、理解什么是写代码与Python的基本类型
 ### 3.1什么是代码，什么是写代码
 1.什么是代码？代码是现实世界事物在j计算机世界中的映射
 
