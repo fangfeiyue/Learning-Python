@@ -423,6 +423,7 @@ isinstance(a, (int, float, str));判断是不是元组中的任意一种类型
 ### 6.2表达式的优先级
 - and的优先级高于or
 - 表达式优先级图标
+
 ![优先级](http://note.youdao.com/yws/public/resource/c2361265179a03449f6d52397fd50033/xmlnote/46197B50861A43948F0E3A1DDF8A8C9C/17814)
 ### 6.3表达式优先级练习
 ### 6.4在文本文件中编写Python代码
