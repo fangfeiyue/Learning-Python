@@ -339,3 +339,76 @@ print(5%2);#1
 ```
 print(2**5);#2的五次方
 ```
+### 5.6赋值运算符
+1.分页加载总页数计算公式
+```
+totalPage = (totalCount+ loadCount-1) / loadCount;
+其中 loadCount- 1 就是 totalCount/ loadCount的最大的余数
+```
+
+2.Python里面没有自增自减运算符
+```
+a = 1;
+print(c++);#报错
+print(c--);#报错
+```
+
+### 5.7关系运算符
+### 5.8不只是数字才能做比较运算
+### 5.9逻辑运算符
+- and
+- or
+- not
+### 5.10成员运算符
+- 作用：判断一个元素是否在另外一组元素里面，成员运算符的返回值依然是bool类型
+- in可以用在str,元组,列表,set集合,字典
+```
+字典中判断是key值是否存在
+b = 'b';
+print(b in {'b':b}); #True
+```
+- not in
+### 5.11身份运算符
+- is
+- not is
+- is 和 == 的区别, ==比较是值是否相等，is比较的是两个变量的身份是否相等。
+```
+a = 1.0;
+b = 1;
+print(a == b); #True
+print(a is b); #False
+
+#集合 集合是无序的
+a1 = {1, 2, 3}
+b1 = {2, 1, 3}
+print(a1 == b1); #True
+print(a1 is b1); #False 
+
+#元组 元组是有序的
+a = (1, 2, 3);
+b = (3, 2, 1);
+print(a == b); #False
+print(a is b); #False
+
+#列表
+a = [1, 2, 3];
+b = [3, 2, 1];
+print(a == b); #False
+print(a is b); #False
+
+#字典
+a = {"a":"b", "c":"d"};
+b = {"c":"d", "a":"b"};
+print(a == b); #True
+print(a is b); #False
+```
+### 5.12如何判断变量的值，身份和类型 
+- isinstance(var, type) 判断类型，为什么不用type()呢，因为type没法判断子类属于某种类型的
+```
+type可以写成一个元组
+isinstance(a, (int, float, str));判断是不是元组中的任意一种类型
+```
+- is 身份
+- == 值
+### 5.13位运算符
+
