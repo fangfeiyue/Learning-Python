@@ -464,4 +464,16 @@ else :
 - 常量要大写
 ### 6.9流程控制语句之条件控制 三 snippet、嵌套分支、代码块的概念
 ### 6.10流程控制语句之条件控制 四 elif的优点
+```
+a = input()
+
+if a == 1:
+    print "apple"
+elif a == 2:
+    print 'orange'
+elif a == 3:
+    print 'banana'
+else:
+    print 'shopping'
+```
 ### 6.11 思考题解答与改变定势思维                
