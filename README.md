@@ -421,12 +421,20 @@ isinstance(a, (int, float, str));判断是不是元组中的任意一种类型
 ## 第六章、分支、循环、条件与枚举
 ### 6.1什么是表达式
 ### 6.2表达式的优先级
-- and的优先级高于or
-- 表达式优先级图标
+- not的优先级高于and高于or
+- 表达式优先级图表
 
 ![优先级](http://note.youdao.com/yws/public/resource/c2361265179a03449f6d52397fd50033/xmlnote/46197B50861A43948F0E3A1DDF8A8C9C/17814)
 ### 6.3表达式优先级练习
+```
+print((not a) or ((b + 2) == c)); #False
+```
 ### 6.4在文本文件中编写Python代码
+- 打开IDLE，新建文件
+- 输入Python代码
+- 保存文件
+- 命令中打开保存的Python文件
+- python 保存的文件.py
 ### 6.5熟悉vscode开发环境与Python插件安装
 ### 6.6流程控制语句之条件控制
 ### 6.7流程控制语句之条件控制
