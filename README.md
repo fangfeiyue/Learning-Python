@@ -436,8 +436,22 @@ print((not a) or ((b + 2) == c)); #False
 - 命令中打开保存的Python文件
 - python 保存的文件.py
 ### 6.5熟悉vscode开发环境与Python插件安装
+- vscode中快速打开终端：ctrl+~
 ### 6.6流程控制语句之条件控制
+- 单行注释快捷键：ctrl+/
+- 多行注释快捷键：alt+shift+a
+- if...else
+```
+Python通过换行和缩进来进行代码的包裹的
+mood = True;
+if mood :
+    print('go to left');
+else :
+    print('go to right'); 
+```
+- Python的代码不能做混淆和压缩，因为是靠缩进包裹代码的
 ### 6.7流程控制语句之条件控制
+
 ### 6.8常量与pylint的规范
 ### 6.9流程控制语句之条件控制 三 snippet、嵌套分支、代码块的概念
 ### 6.10流程控制语句之条件控制 四 elif的优点
