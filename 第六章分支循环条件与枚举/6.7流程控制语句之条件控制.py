@@ -7,7 +7,7 @@ if a > b :
     print('go to left');
 else :
     print('go to right'); '''
-    
+
 ''' 模拟用户登录
     1.判断用户输入的账号密码和存储的账号密码是否一致
         1.1一致，提示登录成功
@@ -18,9 +18,9 @@ account = 'ffy'
 password = '123456'
 
 print('请输入您的账号')
-user_name = input()
+user_name = raw_input()
 print('请输入您的密码')
-user_password = input()
+user_password = raw_input()
 
 if user_name and user_password :
     if user_name == account and user_password == password :
