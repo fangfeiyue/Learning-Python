@@ -28,7 +28,12 @@ print(list2);"""
 
 set1 = {1, 2, 3, 4, 5};
 set2 = set1;
-set1[1] = "23";
+# 删除某项
+set1.remove(1);
+# 添加一项
+set1.add(10);
+# 添加多项
+set1.update(['a', 'b', 'c', 'd']);
 print(set1);
 print(set2);
 
